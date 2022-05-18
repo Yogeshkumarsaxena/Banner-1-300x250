@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#ad{
+	position: relative;
+	top: 0;
+	left: 0px;
+	height: 250px;
+	width: 300px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 2px solid #314351;
+	background-color: #fff;
+}
+#frame1,#frame2{
+	position: absolute;
+	height: 250px;
+	width: 300px;
+	left: -2px;
+	top: -2px;
+
+}
+/*elememts in frame 1*/
+#cityScape{
+	position: absolute;
+	top: 120px;
+	left: 139px;
+	height: 99px;
+	width: 193px;
+	z-index: 3;
+	
+	opacity: 0;
+}
+#bg1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	opacity: 0;
+	z-index: 1;
+}
+#comboLogo{
+	position: absolute;
+	top: 226px;
+	left: 24px;
+	z-index: 2;
+	height: 16px;
+	width: 120px;
+	opacity: 0;
+}
+#sun{
+	position: absolute;
+	top: 107px;
+	left: 153px;
+	height: 117px;
+	width: 117px;
+	z-index: 2;
+	opacity: 0;
+}
+#copy1{
+	position: absolute;
+	top: 21px;
+	left: 19px;
+	height: 109px;
+	width: 198px;
+	z-index: 3;
+	opacity: 0;
+}
+#theTanejaGroup{
+	position: absolute;
+	top: 230px;
+	left: 193px;
+	height: 10px;
+	width: 93px;
+	opacity: 0;
+	z-index: 3;
+}
+#clouds1{
+	position: absolute;
+	top: 73px;
+	left: 242px;
+	height: 18px;
+	width: 36px;
+	opacity: 0;
+	z-index: 2;
+}
+#clouds2{
+	position: absolute;
+	top: 37px;
+	left: 110px;
+	height: 25px;
+	width: 58px;
+	opacity: 0;
+	z-index: 2;
+}
+#clouds3{
+	position: absolute;
+	top: 35px;
+	left: 208px;
+	height: 36px;
+	width: 83px;
+	opacity: 0;
+	z-index: 2;
+}
+#car1{
+	position: absolute;
+	top: 139px;
+	left: 120px;
+	height: 10px;
+	width: 48px;
+	opacity: 0;
+	z-index: 2;
+}
+#car2{
+	position: absolute;
+	top: 182px;
+	left: 24px;
+	height: 13px;
+	width: 58px;
+	opacity: 0;
+	z-index: 2;
+}
+/*end of elements in frame 1*/
+
+/*elements in frame 2*/
+#bg2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	opacity: 0;
+	z-index: 0;
+}
+#copy2{
+	position: absolute;
+	top: 23px;
+	left: 21px;
+	height: 77px;
+	width: 260px;
+	z-index: 3;
+	opacity: 0;
+}
+#cityScape2{
+	position: absolute;
+	top: 138px;
+	left: -35px;
+	height: 183px;
+	width: 358px;
+	z-index: 3;
+	
+	opacity: 0;
+}
+#clouds4{
+	position: absolute;
+	top: 131px;
+	left: 191px;
+	height: 29px;
+	width: 61px;
+	opacity: 0;
+	z-index: 2;
+}
+#clouds5{
+	position: absolute;
+	top: 71px;
+	left: 167px;
+	height: 50px;
+	width: 110px;
+	opacity: 0;
+	z-index: 2;
+}
+#clouds6{
+	position: absolute;
+	top: 75px;
+	left: -21px;
+	height: 36px;
+	width: 83px;
+	opacity: 0;
+	z-index: 2;
+}
+
+/*end of elements of frame 2*/
+
+/*elements of frame3 3*/
+
+#bg3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	opacity: 0;
+	z-index: -1;
+}
+
+#copy3{
+	position: absolute;
+	top: 64px;
+	left: 53px;
+	height: 111px;
+	width: 185px;
+	z-index: 3;
+	opacity: 0;
+}
+#cta{
+	position: absolute;
+	top: 190px;
+	left: 62px;
+	opacity: 0;
+}
+#comboLogo2{
+	position: absolute;
+	top: 20px;
+	left: 28px;
+	z-index: 2;
+	height: 30px;
+	width: 229px;
+	opacity: 0;
+}
+/*end of frame 3 elements*/
+#mainExit{
+
+	width: 300px;
+	height: 250px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	left: 0px;
+	top: 0px;
+	z-index: 99;
+	background-color: rgba(255,255,255,0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
